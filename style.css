@@ -1,0 +1,36 @@
+html {
+    background-color: rgb(199, 191, 206);
+}
+h1 {
+    font-family: 'a_FuturicaNord Italic', sans-serif;
+    color: rgb(65, 50, 78);
+}
+h2 {
+    color: rgb(109, 85, 130);
+}
+.fbig {
+    font-size: 30px;
+}
+
+ul {
+    list-style-type: square;
+}
+
+.fbig {
+    font-size: 20px;
+}
+
+@font-face {
+	font-family: 'a_FuturicaNord Italic';
+	src: url('../fonts/a_futuricanord_italic.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/a_futuricanord_italic.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/a_futuricanord_italic.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/a_futuricanord_italic.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/a_futuricanord_italic.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/a_futuricanord_italic.svg#a_futuricanord_italic') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+.widht {
+    widht: 600px;
+    height: 300px;
+}
